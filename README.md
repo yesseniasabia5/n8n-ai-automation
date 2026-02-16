@@ -58,16 +58,16 @@ Diagram
 
 ```mermaid
 flowchart LR
-	A[User on WhatsApp] --> B[WhatsApp Trigger (n8n)]
+	A[User on WhatsApp] --> B[WhatsApp Trigger]
 	B --> C[Download audio / get message]
-	C --> D[AssemblyAI (upload & transcribe)]
+	C --> D[AssemblyAI upload & transcribe]
 	D --> E[Transcription text]
-	E --> F[LLM Agent (OpenRouter) + Memory]
-	F --> G[MCP Client (SSE)]
+	E --> F[LLM Agent OpenRouter + Memory]
+	F --> G[MCP Client SSE]
 	G --> H[MCP Server]
 	H --> I[Airtable]
 	H --> J[Gmail]
-	F --> K[Enviar Mensaje (WhatsApp API)]
+	F --> K[Enviar Mensaje WhatsApp API]
 	H --> K
 ```
 
