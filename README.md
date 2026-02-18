@@ -34,9 +34,9 @@ I needed a WhatsApp-native AI assistant that could handle both text and voice me
 - Uses a custom **MCP (client/server) over SSE** for real-time inter-workflow communication
 
 ### Screenshot
-![Bot Skyner Client workflow](BotSkynet\img\Screenshot_client.png)
+![Bot Skyner Client workflow](Bot Skynet/img/Screenshot_client.png)
 
-![Bot Skyner Server workflow](BotSkynet\img\Screenshot_server.png)
+![Bot Skyner Server workflow](Bot Skynet/img/Screenshot_server.png)
 
 ### Architecture
 
