@@ -33,6 +33,11 @@ I needed a WhatsApp-native AI assistant that could handle both text and voice me
 - Sends responses back via WhatsApp API
 - Uses a custom **MCP (client/server) over SSE** for real-time inter-workflow communication
 
+### Screenshot
+![Bot Skyner Client workflow](BotSkynet\img\Screenshot_client.png)
+
+![Bot Skyner Server workflow](BotSkynet\img\Screenshot_server.png)
+
 ### Architecture
 
 ```mermaid
